@@ -268,7 +268,7 @@ Permission to use, copy, modify, and/or distribute this software for any purpose
 
 - 🌐 Portfolio: [brianwalker.dev](https://brianwalker.dev)
 - 💼 GitHub: [@brianwalkerdev](https://github.com/brianwalkerdev)
-- 📧 Email: Available on portfolio site
+- 📧 Email: contact@brianwalker.dev
 
 ### About the Developer
 Front-end developer specializing in creating responsive, accessible web applications with modern HTML, CSS, and JavaScript. Passionate about clean code, user experience, and web performance optimization.
