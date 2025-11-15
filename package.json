@@ -1,19 +1,41 @@
 {
-  "name": "techdegree-project-3",
-  "version": "1.0.0",
-  "description": "A responsive registration form. Notice that the labels move above the input fields when the window is resized. Basic HTML is used to create the form as well as CSS for styling. Project three of Treehouse Techdegree.",
-  "main": "index.js",
+  "name": "responsive-web-page-advanced-layouts",
+  "version": "2.0.0",
+  "description": "A professionally-designed, responsive newsletter registration form showcasing modern HTML5 and CSS3 techniques for adaptive web layouts. Features semantic markup, accessibility optimizations, and mobile-first design principles.",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "python -m http.server 8080",
+    "serve": "python -m http.server 8080",
+    "test": "echo \"No tests specified\" && exit 0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bwalkerwebdev/Techdegree-Project-3.git"
+    "url": "git+https://github.com/brianwalkerdev/responsive-web-page-advanced-layouts.git"
   },
-  "author": "Brian Walker",
+  "keywords": [
+    "responsive",
+    "web-design",
+    "html5",
+    "css3",
+    "form",
+    "newsletter",
+    "signup",
+    "registration",
+    "mobile-first",
+    "accessibility",
+    "frontend",
+    "web-development",
+    "portfolio",
+    "brian-walker"
+  ],
+  "author": {
+    "name": "Brian Walker",
+    "url": "https://brianwalker.dev",
+    "email": "contact@brianwalker.dev"
+  },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bwalkerwebdev/Techdegree-Project-3/issues"
+    "url": "https://github.com/brianwalkerdev/responsive-web-page-advanced-layouts/issues"
   },
-  "homepage": "https://github.com/bwalkerwebdev/Techdegree-Project-3#readme"
+  "homepage": "https://brianwalkerdev.github.io/responsive-web-page-advanced-layouts/"
 }
