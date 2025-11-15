@@ -1,7 +1,7 @@
 {
   "name": "responsive-web-page-advanced-layouts",
   "version": "2.0.0",
-  "description": "A professionally-designed, responsive newsletter registration form showcasing modern HTML5 and CSS3 techniques for adaptive web layouts. Features semantic markup, accessibility optimizations, and mobile-first design principles.",
+  "description": "A professionally-designed, responsive newsletter registration form showcasing modern HTML5 and CSS3 techniques for adaptive web layouts. Features semantic markup, accessibility optimizations, and a mobile-first approach.",
   "main": "index.html",
   "scripts": {
     "start": "python -m http.server 8080",
@@ -38,7 +38,5 @@
     "url": "https://github.com/brianwalkerdev/responsive-web-page-advanced-layouts/issues"
   },
   "homepage": "https://brianwalkerdev.github.io/responsive-web-page-advanced-layouts/",
-  "dependencies": {
-  }
-}
+  "dependencies": {}
 }
