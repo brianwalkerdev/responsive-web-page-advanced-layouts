@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   max-width: 100vw;
   background-color: #f5f0e1;
@@ -58,15 +62,18 @@ h2 {
   border-radius: 5px;
   border: none;
   background-color: rgb(229, 233, 233);
+  transition: background-color 0.5s ease-in-out;
+}
+
+.section-2 input:focus {
+  outline: 2px solid #ff6e40;
+  outline-offset: 2px;
 }
 
 fieldset {
   border: none;
-}
-
-input,
-textarea {
-  transition: background-color 0.5s ease-in-out;
+  padding: 0;
+  margin: 0;
 }
 
 input:focus {
@@ -75,6 +82,8 @@ input:focus {
 
 textarea:focus {
   background-color: #ffc13b;
+  outline: 2px solid #ff6e40;
+  outline-offset: 2px;
 }
 
 ::placeholder {
@@ -90,6 +99,13 @@ textarea:focus {
   border-radius: 5px;
   border: none;
   background: rgb(229, 233, 233);
+  cursor: pointer;
+}
+
+.section-2 select:focus {
+  background-color: #ffc13b;
+  outline: 2px solid #ff6e40;
+  outline-offset: 2px;
 }
 
 #zip {
@@ -111,6 +127,20 @@ hr {
   margin-left: 10px;
   margin-bottom: 20px;
   display: inline-block;
+  cursor: pointer;
+}
+
+.section-3 input[type="checkbox"],
+.section-3 input[type="radio"] {
+  cursor: pointer;
+  width: auto;
+  margin-right: 5px;
+}
+
+.section-3 input[type="checkbox"]:focus,
+.section-3 input[type="radio"]:focus {
+  outline: 2px solid #ff6e40;
+  outline-offset: 2px;
 }
 
 textarea {
@@ -119,6 +149,8 @@ textarea {
   border-radius: 5px;
   border: none;
   background: rgb(229, 233, 233);
+  transition: background-color 0.5s ease-in-out;
+  resize: vertical;
 }
 
 button {
@@ -130,6 +162,22 @@ button {
   padding: 25px 0;
   text-align: center;
   font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background: #ff5722;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+button:focus {
+  outline: 3px solid #ffc13b;
+  outline-offset: 2px;
 }
 
 .copy {
