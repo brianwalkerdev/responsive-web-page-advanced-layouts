@@ -39,6 +39,6 @@
   },
   "homepage": "https://brianwalkerdev.github.io/responsive-web-page-advanced-layouts/",
   "dependencies": {
-    "playwright": "^1.56.1"
   }
+}
 }
