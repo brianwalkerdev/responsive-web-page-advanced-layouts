@@ -45,7 +45,8 @@
               type="text"
               id="name"
               name="name"
-              placeholder="Required "
+              placeholder="Required"
+              aria-required="true"
             /><br /><br />
 
             <label for="email">Email Address</label>
@@ -54,7 +55,8 @@
               type="email"
               id="email"
               name="email"
-              placeholder="Required "
+              placeholder="Required"
+              aria-required="true"
             /><br /><br />
 
             <label for="phone">Phone Number</label>
@@ -62,7 +64,7 @@
               type="tel"
               id="phone"
               name="phone"
-              placeholder="123-456-7890 "
+              placeholder="123-456-7890"
             /><br /><br />
 
             <label for="address">Street Address</label>
@@ -70,7 +72,7 @@
               type="text"
               id="address"
               name="address"
-              placeholder="12345 Harmony Lane "
+              placeholder="12345 Harmony Lane"
             /><br /><br />
 
             <label for="city">City</label>
@@ -78,7 +80,7 @@
               type="text"
               id="city"
               name="city"
-              placeholder="Detroit "
+              placeholder="Detroit"
             /><br /><br />
 
             <label for="state">State</label>
@@ -138,10 +140,12 @@
 
             <label for="zip">Zip Code</label>
             <input
-              type="number"
+              type="text"
               id="zip"
               name="zip"
-              placeholder="12345 "
+              placeholder="12345"
+              pattern="[0-9]{5}"
+              inputmode="numeric"
             /><br /><br />
 
             <div style="clear: both"></div>
@@ -153,8 +157,8 @@
           <fieldset>
             <legend><h2>Newsletter</h2></legend>
             <p>
-              <label id="news"
-                >Select the newsletters you would like to receive</label
+              <span id="news"
+                >Select the newsletters you would like to receive</span
               >
             </p>
             <input type="checkbox" id="html" name="news" value="HTML" />
@@ -164,7 +168,7 @@
             <input type="checkbox" id="java" name="news" value="Javascript" />
             <label for="java"> Javascript News</label><br />
 
-            <p><label id="format">Newsletter format</label></p>
+            <p><span id="format">Newsletter format</span></p>
             <input
               type="radio"
               id="html_format"
@@ -180,11 +184,9 @@
             />
             <label for="text_format">Plain text</label><br />
 
-            <p>
-              <label for="textarea" id="other"
-                >Other topics you'd like to hear about</label
-              >
-            </p>
+            <label for="textarea" id="other"
+              >Other topics you'd like to hear about</label
+            >
             <textarea
               id="textarea"
               name="textarea"
