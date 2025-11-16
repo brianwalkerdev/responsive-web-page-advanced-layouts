@@ -1,1 +1,44 @@
-{ "name": "responsive-web-page-advanced-layouts", "version": "2.0.0", "description": "A professionally-designed, responsive newsletter registration form showcasing modern HTML5 and CSS3 techniques for adaptive web layouts. Features semantic markup, accessibility optim[...]", "main": "index.html", "scripts": { "start": "python -m http.server 8080", "serve": "python -m http.server 8080", "build": "echo "No build step for this static site"", "build:prod": "echo "No production build step for this static site"", "test": "echo "No tests specified" && exit 0" }, "repository": { "type": "git", "url": "git+https://github.com/brianwalkerdev/responsive-web-page-advanced-layouts.git" }, "keywords": [ "responsive", "web-design", "html5", "css3", "form", "newsletter", "signup", "registration", "mobile-first", "accessibility", "frontend", "web-development", "portfolio", "brian-walker" ], "author": { "name": "Brian Walker", "url": "https://brianwalker.dev", "email": "contact@brianwalker.dev" }, "license": "ISC", "bugs": { "url": "https://github.com/brianwalkerdev/responsive-web-page-advanced-layouts/issues" }, "homepage": "https://brianwalkerdev.github.io/responsive-web-page-advanced-layouts/", "dependencies": {} }
+{
+  "name": "responsive-web-page-advanced-layouts",
+  "version": "2.0.0",
+  "description": "A professionally-designed, responsive newsletter registration form showcasing modern HTML5 and CSS3 techniques for adaptive web layouts. Features semantic markup, accessibility optimization, and mobile-first design.",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8080",
+    "serve": "python -m http.server 8080",
+    "build": "mkdir -p dist && cp -r index.html css dist/",
+    "build:prod": "npm run build",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianwalkerdev/responsive-web-page-advanced-layouts.git"
+  },
+  "keywords": [
+    "responsive",
+    "web-design",
+    "html5",
+    "css3",
+    "form",
+    "newsletter",
+    "signup",
+    "registration",
+    "mobile-first",
+    "accessibility",
+    "frontend",
+    "web-development",
+    "portfolio",
+    "brian-walker"
+  ],
+  "author": {
+    "name": "Brian Walker",
+    "url": "https://brianwalker.dev",
+    "email": "contact@brianwalker.dev"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brianwalkerdev/responsive-web-page-advanced-layouts/issues"
+  },
+  "homepage": "https://brianwalkerdev.github.io/responsive-web-page-advanced-layouts/",
+  "dependencies": {}
+}

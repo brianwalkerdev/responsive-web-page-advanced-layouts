@@ -115,10 +115,16 @@ hr {
 }
 
 #news,
-#format,
-#other {
+#format {
   margin-left: 0;
   margin-bottom: auto;
+  font-weight: 500;
+}
+
+#other {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .section-3 label {
@@ -130,8 +136,7 @@ hr {
 
 .section-3 input[type="checkbox"],
 .section-3 input[type="radio"] {
-  /* cursor: pointer; */
-  /* width: auto; */
+  cursor: pointer;
   margin-right: 5px;
 }
 
