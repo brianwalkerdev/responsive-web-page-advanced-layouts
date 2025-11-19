@@ -1,5 +1,5 @@
 {
-  "name": "responsive-web-page-advanced-layouts",
+  "name": "newsletter-signup-landing-page-ui-ux",
   "version": "2.0.0",
   "description": "A professionally-designed, responsive newsletter registration form showcasing modern HTML5 and CSS3 techniques for adaptive web layouts. Features semantic markup, accessibility optimization, and mobile-first design.",
   "main": "index.html",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brianwalkerdev/responsive-web-page-advanced-layouts.git"
+    "url": "git+https://github.com/brianwalkerdev/newsletter-signup-landing-page-ui-ux.git"
   },
   "keywords": [
     "responsive",
@@ -37,8 +37,8 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/brianwalkerdev/responsive-web-page-advanced-layouts/issues"
+    "url": "https://github.com/brianwalkerdev/newsletter-signup-landing-page-ui-ux/issues"
   },
-  "homepage": "https://brianwalkerdev.github.io/responsive-web-page-advanced-layouts/",
+  "homepage": "https://brianwalkerdev.github.io/newsletter-signup-landing-page-ui-ux/",
   "dependencies": {}
 }

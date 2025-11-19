@@ -2,14 +2,14 @@
 
 A professionally-designed, responsive newsletter signup form demonstrating modern HTML5 and CSS3 techniques for adaptive web layouts.
 
-[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://brianwalkerdev.github.io/responsive-web-page-advanced-layouts/)
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://brianwalkerdev.github.io/newsletter-signup-landing-page-ui-ux/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ![Project Thumbnail](thumbnail.png)
 
 ## 🚀 Live Demo
 
-**[View Live Demo →](https://brianwalkerdev.github.io/responsive-web-page-advanced-layouts/)**
+**[View Live Demo →](https://brianwalkerdev.github.io/newsletter-signup-landing-page-ui-ux/)**
 
 ## ✨ Features
 
@@ -33,8 +33,8 @@ A professionally-designed, responsive newsletter signup form demonstrating moder
 
 ```bash
 # Clone the repository
-git clone https://github.com/brianwalkerdev/responsive-web-page-advanced-layouts.git
-cd responsive-web-page-advanced-layouts
+git clone https://github.com/brianwalkerdev/newsletter-signup-landing-page-ui-ux.git
+cd newsletter-signup-landing-page-ui-ux
 
 # Open in browser
 open index.html
@@ -90,7 +90,7 @@ Upload the contents of the `dist` folder (after running `npm run build`) to any 
 ## 📁 Project Structure
 
 ```
-responsive-web-page-advanced-layouts/
+newsletter-signup-landing-page-ui-ux/
 ├── index.html          # Main HTML file
 ├── css/
 │   ├── styles.css      # Custom styles and responsive layouts
